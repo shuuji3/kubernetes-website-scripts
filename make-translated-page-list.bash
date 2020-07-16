@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# Generate lists of translated and untranslated pages for k8s.io/docs.
+
 function usage() {
     echo "$0 <base-dir>"
     echo "  base-dir: kubernetes/website root directory"
